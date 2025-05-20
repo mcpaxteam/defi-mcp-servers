@@ -11,6 +11,10 @@ Model Context Protocols (MCPs) are a new paradigm for building decentralized app
 *   **Increased Flexibility:** MCPs can be easily customized and updated to meet the evolving needs of dApps.
 *   **Quantum-Safe Compute:** MCPs can be configured to use quantum-resistant cryptographic algorithms, protecting dApps from future quantum threats.
 
+## MCPs in the MCPAX Ecosystem
+
+These MCP servers are designed to be integrated into the MCPAX ecosystem. They can be deployed on the MCPAX marketplace and offered to dApp developers for free or for rent using the MCPAX token ($MCPAX). This allows MCP developers to monetize their work and dApp developers to access a wide range of specialized data and functionality.
+
 ## MCP Servers
 
 The following MCP servers are included in this repository:
@@ -37,7 +41,7 @@ To use these MCP servers, you will need to:
     uvicorn mcp_defi_risk:app --host 0.0.0.0 --port 8000
     ```
 
-    Replace `mcp_defi_risk` with the name of the MCP server you want to run, and adjust the port number accordingly.  See the individual README files for each server for specific instructions.
+    Replace `mcp_defi_risk` with the name of the MCP server you want to run, and adjust the port number accordingly. See the individual README files for each server for specific instructions.
 
 ## Deployment
 
